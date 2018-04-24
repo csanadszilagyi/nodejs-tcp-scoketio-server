@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-tcp-scoketio-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:server": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jourdonnais/nodejs-tcp-scoketio-server.git"
+  },
+  "author": "sc",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/jourdonnais/nodejs-tcp-scoketio-server/issues"
+  },
+  "homepage": "https://github.com/jourdonnais/nodejs-tcp-scoketio-server#readme",
+  "dependencies": {
+    "body-parser": "~1.0.1",
+    "express": "^4.15.2",
+    "nodemon": "^1.15.1",
+    "socket.io": "^2.0.4"
+  }
+}
